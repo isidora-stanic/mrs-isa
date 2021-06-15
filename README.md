@@ -6,9 +6,45 @@
 # Pharmacy Project
 MRS-ISA Project
 
+# Forked repository
+We have forked the repository because we spent all the free credit on Travis CI.
+
+Finally, we have made the pull request from old repository (main) to new repository (main).
+
+Link to the forked repository is https://github.com/isidora-stanic/mrs-isa
 
 # Running a project
-TODO
+
+Clone this repository:
+```
+git clone https://github.com/milospp/mrs-isa.git
+```
+
+Or clone the new repository:
+```
+git clone https://github.com/isidora-stanic/mrs-isa.git
+```
+
+Run frontend:
+```
+cd mrs-isa/frontend/pharmacy
+npm install --save
+npm run serve
+```
+
+Run backend (from the root folder for cloned repo):
+```
+cd mrs-isa/backend
+.\mvnw spring-boot:run
+```
+
+Frontend runs on local port 3000
+
+Backend runs on local port 8080
+
+http://localhost:3000/
+
+
 # Demo
 https://pharmacy9.herokuapp.com/ 
 
@@ -41,3 +77,4 @@ D --> E{Heroku frontend}
 D --> F{Heroku backend}
 D --> G{SonarCloud}
 
+```
